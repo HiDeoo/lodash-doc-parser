@@ -35,7 +35,7 @@ The JSON representation generated is an array of objects. Each object represents
 
 * **name** (`string`): Name of the Lodash method.
 * **description** (`string`): Description of the Lodash method.
-* **arguments** (`Array<string>`): List of the method arguments. If the method takes no argument, the array will be empty.
+* **args** (`Array<string>`): List of the method arguments. If the method takes no argument, the array will be empty.
 * **returns** (`string`): Returns value of the Lodash method.
 * **url** (`string`): Direct URL to the Lodash method documentation.
 
@@ -44,7 +44,7 @@ The JSON representation generated is an array of objects. Each object represents
   {
     "name": "chunk",
     "description": "Creates an array of elements split into groups the length of size. If array can't be split evenly, the final chunk will be the remaining elements.",
-    "arguments": [
+    "args": [
       "array",
       "[size=1]"
     ],

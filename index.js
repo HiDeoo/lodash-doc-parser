@@ -220,8 +220,8 @@ function parseDocumentation(tree) {
       isParsingMethod = false;
       methodIndex = 0;
 
-      if (_.isNil(currentMethod.arguments)) {
-        currentMethod.arguments = [];
+      if (_.isNil(currentMethod.args)) {
+        currentMethod.args = [];
       }
 
       if (_.isNil(currentMethod.returns)) {
@@ -261,7 +261,7 @@ function parseDocumentation(tree) {
     if (isParsingMethod && isParsingArgs) {
       isParsingArgs =  false;
 
-      currentMethod.arguments = getArgs(element);
+      currentMethod.args = getArgs(element);
 
       return;
     }

@@ -4,6 +4,8 @@
 
 The generated JSON will only contains Lodash methods.
 
+This tool was originally created to create a JSON representation of the Lodash documentation for the [autocomplete-lodash](https://github.com/HiDeoo/autocomplete-lodash) Atom package.
+
 ## Installation
 
 Clone the repository and install the dependencies:
